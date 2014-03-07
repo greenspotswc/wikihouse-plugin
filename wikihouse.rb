@@ -1409,7 +1409,7 @@ class WikiHouseEntities
       face1 = faces.pop
       area1 = face1.area transform
       # Ignore small faces.
-      if area1 < 5
+      if area1 < 0
         next
       end
       idx = -1
